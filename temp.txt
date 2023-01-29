@@ -1,0 +1,13 @@
+<?php 
+    if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] = true){
+      echo "logged in";
+    }else{
+
+    }
+  ?>
+  <?php 
+    if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] = true){
+      echo "Welcome To AKSU Logistic - $_SESSION[company_name]";
+    }
+  ?>
+  
